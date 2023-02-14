@@ -29,7 +29,7 @@ CreateThread(function()
                         PlaySoundFrontend(-1, "BASE_JUMP_PASSED", "HUD_AWARDS",
                                           1) -- sound effect
                         StartScreenEffect("SuccessNeutral", 0, 0) -- sound
-                        TriggerEvent('inventory:openHouse', "steam:id",
+                        TriggerEvent('inventory:openHouse', ESX.GetPlayerData().identifier,
                                      "Inventario 1", "Inventario banda", 400) -- Trigger chezza inventory personal
                         menu.close()
                     else
@@ -57,7 +57,7 @@ CreateThread(function()
                         PlaySoundFrontend(-1, "BASE_JUMP_PASSED", "HUD_AWARDS",
                                           1)
                         StartScreenEffect("SuccessNeutral", 0, 0)
-                        TriggerEvent('inventory:openHouse', "steam:id",
+                        TriggerEvent('inventory:openHouse', ESX.GetPlayerData().identifier,
                                      "Inventario families",
                                      "Inventario banda f", 400)
                         menu.close()
@@ -87,7 +87,7 @@ CreateThread(function()
                         PlaySoundFrontend(-1, "BASE_JUMP_PASSED", "HUD_AWARDS",
                                           1)
                         StartScreenEffect("SuccessNeutral", 0, 0)
-                        TriggerEvent('inventory:openHouse', "steam:id",
+                        TriggerEvent('inventory:openHouse', ESX.GetPlayerData().identifier,
                                      "Inventario marabunta",
                                      "Inventario banda m", 400)
                         menu.close()
@@ -117,7 +117,7 @@ CreateThread(function()
                         PlaySoundFrontend(-1, "BASE_JUMP_PASSED", "HUD_AWARDS",
                                           1)
                         StartScreenEffect("SuccessNeutral", 0, 0)
-                        TriggerEvent('inventory:openHouse', "steam:id",
+                        TriggerEvent('inventory:openHouse', ESX.GetPlayerData().identifier,
                                      "Inventario weed camp",
                                      "Inventario banda c", 400)
                         menu.close()
@@ -147,7 +147,7 @@ CreateThread(function()
                         PlaySoundFrontend(-1, "BASE_JUMP_PASSED", "HUD_AWARDS",
                                           1)
                         StartScreenEffect("SuccessNeutral", 0, 0)
-                        TriggerEvent('inventory:openHouse', "steam:id",
+                        TriggerEvent('inventory:openHouse', ESX.GetPlayerData().identifier,
                                      "Inventario azteca", "Inventario banda a",
                                      400)
                         menu.close()
